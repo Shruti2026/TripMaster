@@ -1,7 +1,6 @@
 // CreateTrip.jsx
 import React, { useEffect, useState } from 'react';
 import AsyncSelect from 'react-select/async';
-import {Input} from '../components/ui/input'
 import { AI_PROMPT, SelectBudgetOptions, SelectTravelsList } from '../constants/options';
 import { Button } from '../components/ui/button';
 import { toast } from "sonner"
@@ -21,7 +20,6 @@ import { doc, setDoc } from "firebase/firestore";
 import { BiLoaderAlt } from "react-icons/bi";
 import { db } from '../service/firebaseConfig';
 import { useNavigate } from 'react-router-dom';
-import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
 
 function CreateTrip() {
   // Function to fetch place suggestions from OpenStreetMap Nominatim API
