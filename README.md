@@ -2,6 +2,8 @@
 
 **TripMaster AI** is an intelligent, AI-driven trip planning web application that helps users create customized travel itineraries with just a few clicks. Whether you're planning a solo adventure, a romantic getaway, or a family vacation, TripMaster AI generates a full travel plan tailored to your preferences — all powered by cutting-edge AI and location data APIs.
 
+Try it here: [Click](https://trip-master-ai-silk.vercel.app/)
+
 ## ✨ Features
 
 - 🧠 **AI-Based Trip Planning** using **Google Gemini API**
