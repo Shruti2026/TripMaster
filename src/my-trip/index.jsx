@@ -63,10 +63,6 @@ function MyTrip() {
             ))}
         </div>
         </div>
-        {/* Footer */}
-            <footer className="relative z-10 mt-20 text-white text-center">
-                <p className="text-sm">&copy; {new Date().getFullYear()} TripMaster AI | All rights are reserved | Created by Arup.</p>
-            </footer>
     </div>
     );
 

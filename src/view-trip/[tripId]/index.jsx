@@ -7,7 +7,6 @@ import InfoSection from '../components/InfoSection';
 import { getDoc } from 'firebase/firestore';
 import Hotels from '../components/Hotels';
 import PlacesToVisit from '../components/PlacesToVisit';
-import Footer from '../components/Footer';
 
 function ViewTrip() {
   const {tripId}=useParams();
@@ -42,8 +41,6 @@ function ViewTrip() {
           <Hotels trip={trip} />
         {/*Daily Plan*/}
           <PlacesToVisit trip={trip} />
-        {/*Footer*/}
-          <Footer />
       </div>
     </>
   )
